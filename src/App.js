@@ -1,23 +1,42 @@
-import logo from './logo.svg';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
 
-function App() {
+
+import NavbarMenu from "./Components/Navbar/Nav/NavbarMenu";
+import Signin from "./Pages/Sign/Signin";
+import CartShop from "./Pages/ShoppingCart/CartShop";
+
+import HomePage from "./Home/HomePage";
+import { GlobalStyle } from "./Styles/GlobalComp";
+import Modals from "./asset/Modal/Modals";
+import { useState } from "react";
+import { Data } from "./asset/Data";
+
+
+
+function App({}) {
+const [cart,setCart]=useState([])
+
+  const addCart=(data)=>{
+
+    
+    setCart([...cart,{ ...data, quantity :1}])
+        
+        
+    }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App1">
+      <GlobalStyle/>
+     <BrowserRouter>
+     <NavbarMenu count={cart.length}/>
+     <Routes>
+      <Route path='/' element={<HomePage/>}/>
+      <Route path='/signin' element={<Signin/>}/>
+      <Route path='/cart' element={<CartShop data={Data} cart={cart}/>}/>
+      <Route path='/modal/:id' element={<Modals addCart={addCart}/>}/>
+     </Routes>
+     </BrowserRouter>
     </div>
   );
 }
