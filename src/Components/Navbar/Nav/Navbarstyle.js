@@ -117,7 +117,11 @@ color:white;
     font-size:28px;
 }
 
-
+@media screen and (max-width:478px){
+    .express{
+        font-size:24px;
+    }
+}
 `
 export const RightBar=styled.div`
 display:flex;
@@ -133,4 +137,6 @@ display:flex;
 @media screen and (max-width:768px){
     display:none;
 }
+
+
 `

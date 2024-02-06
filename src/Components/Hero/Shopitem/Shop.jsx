@@ -39,7 +39,7 @@ const Shop = () => {
            <MdAddShoppingCart className='Cart'/>
            </span>
            <div>
-           <h4>{name}</h4>
+           <h4 className='name'>{name}</h4>
            {/* <h4>{Logo}</h4> */}
            </div>
            <div className='shipper'>

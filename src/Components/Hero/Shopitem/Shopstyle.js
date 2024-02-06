@@ -103,12 +103,27 @@ export const Shopp=styled.div`
         grid-template-columns: repeat(2,180px);
         /* row-gap:20px; */
     }
+   
     .container{
     width:10rem;
     /* background:green; */
     border-radius:18px;
     border:1px solid black;
     /* padding:10px 10px; */
+   }
+   .name{
+    font-size:12px;
+    margin-top:20px;
+   }
+   .ship{
+  
+    width:80px;
+    
+    font-size:8px;
+    
+   }
+   .shippers h4{
+    font-size:12px;
    }
    .Cart{
     font-size:16px;
@@ -121,7 +136,7 @@ export const Shopp=styled.div`
     display:flex;
     right:0;
     position:absolute;
-    bottom:8rem;
+    bottom:11rem;
     padding-right:18px;
    }
    .wrapper{
@@ -132,8 +147,8 @@ export const Shopp=styled.div`
     margin:auto; */
    }
    .btn{
-    padding:8px 18px;
-    /* width:100px; */
+    padding:8px 12px;
+    width:140px;
     font-size:10px;
     
    }
