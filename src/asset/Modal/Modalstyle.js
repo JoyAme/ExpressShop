@@ -111,7 +111,11 @@ img{
        
     }
     .midbar{
-      
+        .shipping-info{
+            width:300px;
+            padding:20px 17px;
+          
+        }
        /* width:300px;  */
        
     }

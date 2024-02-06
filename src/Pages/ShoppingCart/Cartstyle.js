@@ -9,6 +9,7 @@ padding-bottom:20px;
     display:flex;
  justify-content:space-around;
  align-items:center;
+ margin-top:30px;
     margin-bottom:20px;
 }
 .Total{
@@ -47,5 +48,20 @@ img{
     }
     
 }
+@media screen and (max-width: 478px){
+    .right-bar h1{
+        font-size:16px;
+    }
+    img{
+   width:150px;
+}
+.bbtn{
+    .Btn{
+        
+        padding:0px 30px;
+       
+    }
+}
 
+}
 `

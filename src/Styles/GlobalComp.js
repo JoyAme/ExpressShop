@@ -33,7 +33,8 @@ export const ButtonStyle=styled.button`
  background:red;
  border:none;
  cursor:pointer;
+ color:white;
  border-radius:10px;
- padding:5px 10px;
+ padding:10px 20px;
 
 `

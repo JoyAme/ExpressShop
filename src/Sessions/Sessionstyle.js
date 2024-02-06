@@ -16,6 +16,10 @@ export const Sessions=styled.div`
    .card000{
     background: rgb(243, 230, 206) ;
        flex:1;
+       display:flex;
+       justify-content:center;
+       align-items:center;
+       gap:20px;
        margin-left:20px;
        margin-bottom:20px;
        /* position: relative; */
