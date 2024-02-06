@@ -38,7 +38,7 @@ const Modals = ({addCart}) => {
            <Container>
             <Row>
          <div  className='leftbar'>
-        <img src={Info.img}   alt='watch'/>
+        <img src={Info.img}   alt='watch' />
         </div>
 
         <div  className='midbar'>
@@ -58,7 +58,7 @@ const Modals = ({addCart}) => {
             <FaStar className="star-iconn"/>
             <FaStar className="star-iconn"/>
             <FaStar className="star-iconn"/>
-            
+
             <h4>{Info.Reviewpoint}</h4>
             </div>
         </div>

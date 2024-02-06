@@ -100,11 +100,11 @@ export const Shopp=styled.div`
 
    @media screen and (max-width:478px){
     .CONT{
-        grid-template-columns: repeat(2,200px);
+        grid-template-columns: repeat(2,180px);
         /* row-gap:20px; */
     }
     .container{
-    width:11rem;
+    width:10rem;
     /* background:green; */
     border-radius:18px;
     border:1px solid black;
@@ -125,7 +125,7 @@ export const Shopp=styled.div`
     padding-right:18px;
    }
    .wrapper{
-    /* width:120px; */
+    width:140px;
     /* position: relative;
    
     padding:10px 10px;
