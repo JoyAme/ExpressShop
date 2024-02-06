@@ -30,11 +30,12 @@ export const Row=styled.div`
 }
 `
 export const ButtonStyle=styled.button`
- background:red;
+ background:whitesmoke;
  border:none;
  cursor:pointer;
- color:white;
- border-radius:10px;
- padding:10px 20px;
+ color:black;
+ font-size:16px;
+ border-radius:28px;
+ padding:12px 20px;
 
 `

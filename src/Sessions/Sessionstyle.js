@@ -20,31 +20,34 @@ export const Sessions=styled.div`
        justify-content:center;
        align-items:center;
        gap:20px;
+       /* padding:10px 40px; */
        margin-left:20px;
        margin-bottom:20px;
        /* position: relative; */
        height:100px;
       /* width:280px; */
       color:#FC6E6E ;
-       border-radius:7px;
+       border-radius:15px;
    }
    .card001{
        background: rgb(243, 230, 206) ;
        flex:1;
+       border-radius:15px;
        margin-left:20px;
        margin-bottom:20px;
        /* position: relative; */
        height:390px;
       /* width:280px; */
       color:#FC6E6E ;
-       border-radius:7px;
+     
    }
    .card1{
      width:210px;
+    
      align-items:center;
-     padding-top:40px;
-     padding-bottom:40px;
-     /* padding:20px 0px; */
+     /* padding-top:40px;
+     padding-bottom:40px; */
+     padding:20px 20px;
      margin:auto;
    }
   
