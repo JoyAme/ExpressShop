@@ -24,7 +24,7 @@ export const Sessions=styled.div`
        margin-bottom:20px;
        /* position: relative; */
        height:100px;
-      width:280px;
+      /* width:280px; */
       color:#FC6E6E ;
        border-radius:7px;
    }
@@ -132,7 +132,10 @@ export const Sessions=styled.div`
       display:flex;
     flex-direction:column;
     }
-   
+    .card11{
+    width:300px;
+ 
+   }
    }
    @media screen and (max-width:768px){
     .container{
