@@ -11,10 +11,11 @@ import { GlobalStyle } from "./Styles/GlobalComp";
 import Modals from "./asset/Modal/Modals";
 import { useState } from "react";
 import { Data } from "./asset/Data";
+import Foot from "./Components/Footer/Foot";
 
 
 
-function App({}) {
+function App() {
 const [cart,setCart]=useState([])
 
   const addCart=(data)=>{
@@ -36,6 +37,7 @@ const [cart,setCart]=useState([])
       <Route path='/cart' element={<CartShop data={Data} cart={cart}/>}/>
       <Route path='/modal/:id' element={<Modals addCart={addCart}/>}/>
      </Routes>
+     <Foot/>
      </BrowserRouter>
     </div>
   );

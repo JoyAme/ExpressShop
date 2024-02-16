@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react"
-import Shop from "../../Components/Hero/Shopitem/Shop"
+// import Shop from "../../Components/Hero/Shopitem/Shop"
 import { CartShoop } from "./Cartstyle"
 import { Container } from "../../Styles/GlobalComp"
-import Button from "../../asset/Button"
+// import Button from "../../asset/Button"
 import { Link } from "react-router-dom"
 
 

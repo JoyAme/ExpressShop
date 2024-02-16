@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container } from '../Styles/GlobalComp'
 import { Sessions } from './Sessionstyle'
-import logo from '../asset/image/facebrush.jpg';
+import logo from '../asset/imgy/facebrush.jpg';
 import { IoIosArrowForward } from "react-icons/io";
 import { IoIosArrowBack } from "react-icons/io";
 import flyer from '../../src/asset/image/flyer.jpg'

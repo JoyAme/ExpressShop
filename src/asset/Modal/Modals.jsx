@@ -17,6 +17,7 @@ const Modals = ({addCart}) => {
 
 
 // useEffect((Data)=>{
+
     const  Info = Data.find((p)=> p.id == id)
     console.log(Info)
 //  return Info
@@ -37,8 +38,8 @@ const Modals = ({addCart}) => {
         <Modal>
            <Container>
             <Row>
-         <div  className='leftbar'>
-        <img src={Info.img}   alt='watch' />
+        <div className='leftbar'>
+        <img src={Info.img}   alt={Info.name} />
         </div>
 
         <div  className='midbar'>

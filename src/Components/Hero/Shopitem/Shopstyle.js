@@ -2,6 +2,7 @@ import {styled} from 'styled-components'
 
 export const Shopp=styled.div`
    width:100%;
+   padding-bottom:60px;
    margin-top:40px;
    .container{
     width:16rem;
