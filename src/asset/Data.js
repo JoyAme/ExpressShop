@@ -139,7 +139,7 @@ export const Data=[
         id:14,
         name:'Mini-selfie-stick',
         Amount:19000,
-        img:'./image/miniselfie.webp',
+        img:'./image/mimiselfie.webp',
         ShippingFee:'1000',
         Delivery:'march 15',
         Reviewpoint: 4.0,
