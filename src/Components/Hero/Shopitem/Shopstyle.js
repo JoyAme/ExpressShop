@@ -5,14 +5,15 @@ export const Shopp=styled.div`
    padding-bottom:60px;
    margin-top:40px;
    .container{
-    width:16rem;
+    flex:0.1;
     /* background:green; */
     border-radius:18px;
     /* padding:10px 10px; */
    }
    .container:hover{
     background:white;
-    border:1px solid grey;
+    box-shadow:0 0 5px 3px grey;
+    /* border:1px solid grey; */
    }
    .Cart{
     font-size:25px;
@@ -29,15 +30,16 @@ export const Shopp=styled.div`
     padding-right:18px;
    }
    .wrapper{
-    width:230px;
+    /* width:100%; */
+    padding:10px 10px;
     position: relative;
     /* background:red; */
-    padding:10px 10px;
+    /* padding:10px 10px; */
     margin:auto;
    }
    .CONT{
     display:grid;
-    grid-template-columns: repeat(5,250px);
+    grid-template-columns: repeat(5,260px);
     row-gap:40px;
    }
    img{
@@ -55,6 +57,7 @@ export const Shopp=styled.div`
     cursor:pointer;
     /* display:none; */
     text-align:center;
+    display:none;
    }
    /* .btn:hover{
     display:block;
@@ -78,13 +81,13 @@ export const Shopp=styled.div`
         grid-template-columns: repeat(3,200px);
     }
     .container{
-    width:13rem;
+    /* width:13rem; */
     /* background:green; */
-    border-radius:18px;
+    /* border-radius:18px; */
     /* padding:10px 10px; */
    }
    .wrapper{
-    width:150px;
+    /* width:150px; */
     /* position: relative;
    
     padding:10px 10px;
@@ -101,15 +104,16 @@ export const Shopp=styled.div`
 
    @media screen and (max-width:478px){
     .CONT{
-        grid-template-columns: repeat(2,180px);
+        grid-template-columns: repeat(2,170px);
+        gap:20px;
         /* row-gap:20px; */
     }
    
     .container{
-    width:10rem;
+    /* width:10rem; */
     /* background:green; */
-    border-radius:18px;
-    border:1px solid black;
+    /* border-radius:18px;
+    border:1px solid black; */
     /* padding:10px 10px; */
    }
    .name{
