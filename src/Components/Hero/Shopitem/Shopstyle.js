@@ -104,7 +104,7 @@ export const Shopp=styled.div`
 
    @media screen and (max-width:478px){
     .CONT{
-        grid-template-columns: repeat(2,170px);
+        grid-template-columns: repeat(2,160px);
         gap:20px;
         /* row-gap:20px; */
     }
