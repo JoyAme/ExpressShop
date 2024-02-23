@@ -10,6 +10,12 @@ export const Shopp=styled.div`
     border-radius:18px;
     /* padding:10px 10px; */
    }
+   .trigger-area:hover + .hover-button {
+    display: block;
+  }
+  .hover-button {
+    display: none;
+  }
    .container:hover{
     background:white;
     box-shadow:0 0 5px 3px grey;
@@ -57,7 +63,7 @@ export const Shopp=styled.div`
     cursor:pointer;
     /* display:none; */
     text-align:center;
-    display:none;
+   
    }
    /* .btn:hover{
     display:block;

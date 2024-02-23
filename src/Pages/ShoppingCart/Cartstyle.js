@@ -7,10 +7,14 @@ padding-bottom:20px;
 /* text-align:center; */
 .cart-shop{
     display:flex;
- justify-content:space-around;
+ justify-content:space-between;
  align-items:center;
  margin-top:30px;
     margin-bottom:20px;
+}
+a{
+    text-decoration:none;
+    color:black;
 }
 .Total{
     text-align:center;
@@ -36,7 +40,7 @@ img{
     margin-top:10px;
     .Btn{
         background:red;
-        padding:15px 60px;
+        padding:5px 60px;
         border:none;
         font-size:26px;
         cursor: pointer;
@@ -58,7 +62,7 @@ img{
 .bbtn{
     .Btn{
         
-        padding:0px 30px;
+        padding:0px 20px;
        
     }
 }

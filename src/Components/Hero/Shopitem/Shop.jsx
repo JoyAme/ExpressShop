@@ -7,11 +7,15 @@ import { Shopp } from './Shopstyle'
 import {MdAddShoppingCart } from "react-icons/md";
 // import Modals from '../../../asset/Modal/Modals';
 import { Link } from 'react-router-dom';
+// import Hover from '../../../Styles/Hover';
+
+// import './Hovercs.css';
 
 
 
 
 const Shop = () => {
+  // const [isHovered, setIsHovered] = useState(false);
   // const [popUp,setPopUp] =useState(false)
 
   // const [openModal, setOpenModal]=useState(false)
@@ -25,6 +29,7 @@ const Shop = () => {
   // }
   return (
 <div>
+{/* <Hover/> */}
         <Shopp>
         <Container>
 
@@ -32,7 +37,7 @@ const Shop = () => {
             {
               Data.map((data,index)=>{
                 const {img,name,Amount,Shipping,Delivery}=data;
-                return<div className='container' key={index}>
+                return<div className='container ' key={index} >
         <div className='wrapper'>
                 <img src={img} alt='watch'/>
            <span>
@@ -47,7 +52,12 @@ const Shop = () => {
            <h5 className='ship'>Welcome Deal</h5>
            {/* <h4 >{Shipping}</h4> */}
            </div>
-          <Link to={`/modal/${data.id}`}><button className='btn'>see preview</button></Link>
+           {/* {isHovered && ( */}
+          <Link to={`/modal/${data.id}`}><button className='btn '>see preview</button></Link>
+           {/* )} */}
+
+
+
                   {/* <Modals open={openModal} onClose={()=> setOpenModal(false)}/> */}
                 </div>
                 </div>
@@ -55,11 +65,13 @@ const Shop = () => {
 
                 // </div>
                 // </>
+
+
               })  
             }
 </div>
     
-    
+
       </Container>
       </Shopp>
 </div>

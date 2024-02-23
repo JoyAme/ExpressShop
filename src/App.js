@@ -12,6 +12,7 @@ import Modals from "./asset/Modal/Modals";
 import { useState } from "react";
 import { Data } from "./asset/Data";
 import Foot from "./Components/Footer/Foot";
+import HoverButton from "./Styles/HoverButton";
 
 
 
@@ -39,7 +40,10 @@ const [cart,setCart]=useState([])
      </Routes>
      <Foot/>
      </BrowserRouter>
+
+  
     </div>
+
   );
 }
 
